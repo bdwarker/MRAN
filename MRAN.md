@@ -318,6 +318,7 @@ IF error THEN:
 
 - `TRY:` opens the attempt block
 - `IF error THEN:` handles the caught error inline
+- The `error` variable is automatically populated with the error caught if the `TRY` block fails
 - No separate CATCH keyword needed
 - Similar to if-else statements, these also share the same level and number
 
